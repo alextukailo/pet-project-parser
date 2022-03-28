@@ -1,0 +1,25 @@
+{
+  "name": "pet-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alextukailo/pet-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alextukailo/pet-project/issues"
+  },
+  "homepage": "https://github.com/alextukailo/pet-project#readme",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "cheerio": "^1.0.0-rc.10",
+    "pretty": "^2.0.0"
+  }
+}
