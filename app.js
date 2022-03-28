@@ -1,7 +1,27 @@
+const express = require('express');
+const mongoose = require('mongoose');
 const axios = require('axios');
 const cheerio = require('cheerio');
 const pretty = require('pretty');
 const fs = require("fs");
+const { connect } = require('http2');
+
+const app = express();
+const PORT = process.env.PORT || 3000;
+
+async function start() {
+    try {
+        await connect('', {
+            useNewUrlParser: true,
+            useFindAndModify: false
+        })
+        app.listen(PORT, () => {
+            console.log('Server has been started');
+        });
+    } catch (error) {
+        console.log(error)
+    }
+} 
 
 const url = 'https://cars.av.by/filter?page=2';
 
@@ -49,3 +69,4 @@ const scrapeData = async () => {
     }
 }
 scrapeData();
+start();

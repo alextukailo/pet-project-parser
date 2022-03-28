@@ -1,28 +1,41 @@
 [
   {
-    "name": "Volkswagen Polo V",
-    "photo_thumb": "https://avcdn.av.by/advertpreview/0000/5968/7946.jpeg",
-    "location": "Минск",
-    "date": "час назад",
-    "production_year": "2011 г.",
-    "short_info": "механика, 1.4 л, бензин, хэтчбек 5 дв.",
-    "mileage": "148 000 км",
+    "name": "Chevrolet Equinox III",
+    "photo_thumb": "https://avcdn.av.by/advertpreview/0000/6231/7114.jpg",
+    "location": "Гомель",
+    "date": "3 дня назад",
+    "production_year": "2021 г.",
+    "short_info": "автомат, 1.5 л, бензин, внедорожник 5 дв.",
+    "mileage": "303 км",
     "price": {
-      "byn": "20 769 р.",
-      "usd": "≈ 6 500 $"
+      "byn": "68 697 р.",
+      "usd": "≈ 21 500 $"
     }
   },
   {
-    "name": "Mitsubishi Eclipse 3G",
-    "photo_thumb": "https://avcdn.av.by/advertpreview/0000/5919/2342.jpeg",
+    "name": "BMW 2 серия Gran Tourer, 7 мест",
+    "photo_thumb": "https://avcdn.av.by/advertpreview/0000/6268/5808.jpg",
     "location": "Минск",
     "date": "час назад",
-    "production_year": "2000 г.",
-    "short_info": "автомат, 2.4 л, бензин, купе",
-    "mileage": "200 000 км",
+    "production_year": "2018 г.",
+    "short_info": "автомат, 1.5 л, дизель, минивэн",
+    "mileage": "163 755 км",
     "price": {
-      "byn": "10 544 р.",
-      "usd": "≈ 3 300 $"
+      "byn": "65 342 р.",
+      "usd": "≈ 20 450 $"
+    }
+  },
+  {
+    "name": "Mercedes-Benz E-Класс W212, S212, C207, A207",
+    "photo_thumb": "https://avcdn.av.by/advertpreview/0000/6234/0971.jpg",
+    "location": "Минск",
+    "date": "час назад",
+    "production_year": "2010 г.",
+    "short_info": "автомат, 3.5 л, бензин, купе",
+    "mileage": "195 000 км",
+    "price": {
+      "byn": "38 342 р.",
+      "usd": "≈ 12 000 $"
     }
   },
   {
@@ -39,289 +52,276 @@
     }
   },
   {
-    "name": "BMW 3 серия E46",
-    "photo_thumb": "https://avcdn.av.by/advertpreview/0000/6260/9474.jpg",
-    "location": "Борисов",
+    "name": "Chrysler Neon II",
+    "photo_thumb": "https://avcdn.av.by/advertpreview/0000/6264/6278.jpg",
+    "location": "Минск",
     "date": "2 часа назад",
-    "production_year": "2003 г.",
-    "short_info": "механика, 1.8 л, бензин, седан",
-    "mileage": "300 000 км",
+    "production_year": "2000 г.",
+    "short_info": "автомат, 2.0 л, бензин, седан",
+    "mileage": "252 000 км",
     "price": {
-      "byn": "13 100 р.",
-      "usd": "≈ 4 100 $"
+      "byn": "3 195 р.",
+      "usd": "≈ 1000 $"
+    }
+  },
+  {
+    "name": "BMW 3 серия E46 · Рестайлинг",
+    "photo_thumb": "https://avcdn.av.by/advertpreview/0000/6230/8229.jpg",
+    "location": "Минск",
+    "date": "7 часов назад",
+    "production_year": "2002 г.",
+    "short_info": "автомат, 2.0 л, бензин, седан",
+    "mileage": "329 000 км",
+    "price": {
+      "byn": "17 414 р.",
+      "usd": "≈ 5 450 $"
+    }
+  },
+  {
+    "name": "Opel Omega B",
+    "photo_thumb": "https://avcdn.av.by/advertpreview/0000/6209/0622.jpg",
+    "location": "Лепель",
+    "date": "58 минут назад",
+    "production_year": "1996 г.",
+    "short_info": "механика, 2.0 л, бензин, седан",
+    "mileage": "295 000 км",
+    "price": {
+      "byn": "3 834 р.",
+      "usd": "≈ 1200 $"
+    }
+  },
+  {
+    "name": "Citroen C4 Grand Picasso II, 7 мест",
+    "photo_thumb": "https://avcdn.av.by/advertpreview/0000/6010/2778.jpeg",
+    "location": "Минск",
+    "date": "2 часа назад",
+    "production_year": "2014 г.",
+    "short_info": "автомат, 1.6 л, дизель, минивэн",
+    "mileage": "203 000 км",
+    "price": {
+      "byn": "34 987 р.",
+      "usd": "≈ 10 950 $"
+    }
+  },
+  {
+    "name": "BMW 5 серия G30",
+    "photo_thumb": "https://avcdn.av.by/advertpreview/0000/6178/5325.jpg",
+    "location": "Минск",
+    "date": "2 часа назад",
+    "production_year": "2017 г.",
+    "short_info": "автомат, 2.0 л, дизель, универсал",
+    "mileage": "172 000 км",
+    "price": {
+      "byn": "90 903 р.",
+      "usd": "≈ 28 450 $"
+    }
+  },
+  {
+    "name": "Audi A4 B9",
+    "photo_thumb": "https://avcdn.av.by/advertpreview/0000/6267/8538.jpg",
+    "location": "Минск",
+    "date": "2 часа назад",
+    "production_year": "2017 г.",
+    "short_info": "автомат, 2.0 л, дизель, универсал",
+    "mileage": "165 000 км",
+    "price": {
+      "byn": "87 868 р.",
+      "usd": "≈ 27 500 $"
+    }
+  },
+  {
+    "name": "Opel Astra H · Рестайлинг",
+    "photo_thumb": "https://avcdn.av.by/advertpreview/0000/6267/7673.jpg",
+    "location": "Орша",
+    "date": "2 часа назад",
+    "production_year": "2010 г.",
+    "short_info": "механика, 1.7 л, дизель, универсал",
+    "mileage": "235 000 км",
+    "price": {
+      "byn": "18 852 р.",
+      "usd": "≈ 5 900 $"
+    }
+  },
+  {
+    "name": "Renault Logan II · Рестайлинг",
+    "photo_thumb": "https://avcdn.av.by/advertpreview/0000/6267/3433.jpg",
+    "location": "Витебск",
+    "date": "2 часа назад",
+    "production_year": "2019 г.",
+    "short_info": "механика, 1.6 л, бензин (метан), седан",
+    "mileage": "168 000 км",
+    "price": {
+      "byn": "24 603 р.",
+      "usd": "≈ 7 700 $"
+    }
+  },
+  {
+    "name": "Peugeot 5008 II, 7 мест",
+    "photo_thumb": "https://avcdn.av.by/advertpreview/0000/6267/1978.jpg",
+    "location": "Минск",
+    "date": "2 часа назад",
+    "production_year": "2019 г.",
+    "short_info": "автомат, 1.5 л, дизель, внедорожник 5 дв.",
+    "mileage": "150 000 км",
+    "price": {
+      "byn": "66 939 р.",
+      "usd": "≈ 20 950 $"
     }
   },
   {
     "name": "BMW X5 E53",
-    "photo_thumb": "https://avcdn.av.by/advertpreview/0000/6190/6406.jpg",
-    "location": "Могилев",
-    "date": "2 часа назад",
-    "production_year": "2006 г.",
-    "short_info": "автомат, 4.4 л, бензин, внедорожник 5 дв.",
-    "mileage": "197 000 км",
-    "price": {
-      "byn": "25 146 р.",
-      "usd": "≈ 7 870 $"
-    }
-  },
-  {
-    "name": "Hyundai Solaris I · Рестайлинг",
-    "photo_thumb": "https://avcdn.av.by/advertpreview/0000/6216/1603.jpg",
+    "photo_thumb": "https://avcdn.av.by/advertpreview/0000/6267/3063.jpg",
     "location": "Минск",
-    "date": "4 дня назад",
-    "production_year": "2014 г.",
-    "short_info": "механика, 1.6 л, бензин (пропан-бутан), седан",
-    "mileage": "125 000 км",
-    "price": {
-      "byn": "24 284 р.",
-      "usd": "≈ 7 600 $"
-    }
-  },
-  {
-    "name": "Citroen Xsara Picasso I",
-    "photo_thumb": "https://avcdn.av.by/advertpreview/0000/6181/7134.jpg",
-    "location": "Гомель",
     "date": "2 часа назад",
-    "production_year": "2000 г.",
-    "short_info": "механика, 1.8 л, бензин, минивэн",
-    "mileage": "340 000 км",
+    "production_year": "2005 г.",
+    "short_info": "автомат, 3.0 л, дизель, внедорожник 5 дв.",
+    "mileage": "324 000 км",
     "price": {
-      "byn": "8 308 р.",
-      "usd": "≈ 2 600 $"
+      "byn": "38 342 р.",
+      "usd": "≈ 12 000 $"
     }
   },
   {
-    "name": "Nissan Micra II (K11)",
-    "photo_thumb": "https://avcdn.av.by/advertpreview/0000/6260/3053.jpg",
-    "location": "Гомель",
+    "name": "Renault Symbol I · Рестайлинг",
+    "photo_thumb": "https://avcdn.av.by/advertpreview/0000/6204/0220.jpg",
+    "location": "Ошмяны",
     "date": "3 часа назад",
-    "production_year": "1996 г.",
-    "short_info": "механика, 1.0 л, бензин, хэтчбек 3 дв.",
-    "mileage": "280 000 км",
+    "production_year": "2002 г.",
+    "short_info": "механика, 1.4 л, бензин, седан",
+    "mileage": "330 000 км",
     "price": {
-      "byn": "4 793 р.",
-      "usd": "≈ 1500 $"
+      "byn": "7 668 р.",
+      "usd": "≈ 2 400 $"
     }
   },
   {
-    "name": "Citroen C5 II",
-    "photo_thumb": "https://avcdn.av.by/advertpreview/0000/6145/5612.jpg",
-    "location": "Барановичи",
-    "date": "2 часа назад",
-    "production_year": "2009 г.",
-    "short_info": "автомат, 2.0 л, дизель, универсал",
-    "mileage": "251 426 км",
-    "price": {
-      "byn": "24 124 р.",
-      "usd": "≈ 7 550 $"
-    }
-  },
-  {
-    "name": "Peugeot 206 I",
-    "photo_thumb": "https://avcdn.av.by/advertpreview/0000/5943/7192.jpeg",
+    "name": "Renault Megane IV",
+    "photo_thumb": "https://avcdn.av.by/advertpreview/0000/6194/9864.jpg",
     "location": "Минск",
-    "date": "12 марта",
-    "production_year": "2001 г.",
-    "short_info": "механика, 1.4 л, бензин, хэтчбек 3 дв.",
-    "mileage": "235 000 км",
-    "price": {
-      "byn": "8 148 р.",
-      "usd": "≈ 2 550 $"
-    }
-  },
-  {
-    "name": "Plymouth Voyager III, 7 мест",
-    "photo_thumb": "https://avcdn.av.by/advertpreview/0000/5091/5993.jpeg",
-    "location": "Молодечно",
-    "date": "9 декабря 2021",
-    "production_year": "1999 г.",
-    "short_info": "автомат, 2.4 л, бензин, минивэн",
-    "mileage": "200 000 км",
-    "price": {
-      "byn": "2 483 р.",
-      "usd": "≈ 777 $"
-    }
-  },
-  {
-    "name": "Renault Clio II",
-    "photo_thumb": "https://avcdn.av.by/advertpreview/0000/6247/1785.jpg",
-    "location": "Минск",
-    "date": "3 часа назад",
-    "production_year": "2003 г.",
-    "short_info": "механика, 1.4 л, бензин, хэтчбек 5 дв.",
-    "mileage": "215 000 км",
-    "price": {
-      "byn": "10 704 р.",
-      "usd": "≈ 3 350 $"
-    }
-  },
-  {
-    "name": "Kia Cee'd II · Рестайлинг",
-    "photo_thumb": "https://avcdn.av.by/advertpreview/0000/6195/1304.jpg",
-    "location": "Ганцевичи",
-    "date": "3 часа назад",
+    "date": "6 дней назад",
     "production_year": "2017 г.",
-    "short_info": "механика, 1.6 л, дизель, универсал",
-    "mileage": "160 000 км",
+    "short_info": "автомат, 1.5 л, дизель, универсал",
+    "mileage": "176 547 км",
     "price": {
-      "byn": "35 786 р.",
-      "usd": "≈ 11 200 $"
+      "byn": "43 135 р.",
+      "usd": "≈ 13 500 $"
     }
   },
   {
-    "name": "Subaru Impreza II · 2-й рестайлинг",
-    "photo_thumb": "https://avcdn.av.by/advertpreview/0000/6229/4038.jpg",
-    "location": "Гомель",
-    "date": "3 часа назад",
-    "production_year": "2006 г.",
-    "short_info": "автомат, 2.5 л, бензин, седан",
-    "mileage": "112 000 км",
-    "price": {
-      "byn": "15 973 р.",
-      "usd": "≈ 4 999 $"
-    }
-  },
-  {
-    "name": "Smart Fortwo II",
-    "photo_thumb": "https://avcdn.av.by/advertpreview/0000/5335/1429.jpeg",
+    "name": "Citroen Xsara I · Рестайлинг",
+    "photo_thumb": "https://avcdn.av.by/advertpreview/0000/6068/9592.jpg",
     "location": "Минск",
-    "date": "6 января",
-    "production_year": "2015 г.",
-    "short_info": "автомат, электро, хэтчбек 3 дв., запас хода 145 км",
-    "mileage": "54 000 км",
-    "price": {
-      "byn": "16 935 р.",
-      "usd": "≈ 5 300 $"
-    }
-  },
-  {
-    "name": "BMW 7 серия F01, F04",
-    "photo_thumb": "https://avcdn.av.by/advertpreview/0000/6248/4665.jpg",
-    "location": "Барановичи",
     "date": "3 часа назад",
-    "production_year": "2012 г.",
-    "short_info": "автомат, 4.0 л, дизель, седан",
-    "mileage": "220 000 км",
+    "production_year": "2004 г.",
+    "short_info": "механика, 1.9 л, дизель, универсал",
+    "mileage": "347 000 км",
     "price": {
-      "byn": "62 626 р.",
-      "usd": "≈ 19 600 $"
+      "byn": "9 586 р.",
+      "usd": "≈ 3 000 $"
     }
   },
   {
-    "name": "Audi A6 C4",
-    "photo_thumb": "https://avcdn.av.by/advertpreview/0000/6260/0078.jpg",
-    "location": "Бобруйск",
-    "date": "3 часа назад",
-    "production_year": "1995 г.",
-    "short_info": "механика, 1.9 л, дизель, седан",
-    "mileage": "430 000 км",
-    "price": {
-      "byn": "15 656 р.",
-      "usd": "≈ 4 900 $"
-    }
-  },
-  {
-    "name": "Hyundai Solaris I",
-    "photo_thumb": "https://avcdn.av.by/advertpreview/0000/6259/9103.jpg",
+    "name": "BMW 3 серия F30, F31",
+    "photo_thumb": "https://avcdn.av.by/advertpreview/0000/6032/7224.jpg",
     "location": "Минск",
     "date": "3 часа назад",
     "production_year": "2013 г.",
-    "short_info": "автомат, 1.6 л, бензин, седан",
-    "mileage": "123 000 км",
+    "short_info": "автомат, 2.0 л, бензин, седан",
+    "mileage": "125 000 км",
     "price": {
-      "byn": "24 763 р.",
-      "usd": "≈ 7 750 $"
+      "byn": "55 916 р.",
+      "usd": "≈ 17 500 $"
     }
   },
   {
-    "name": "Chrysler 300С I",
-    "photo_thumb": "https://avcdn.av.by/advertpreview/0000/6258/7272.jpg",
+    "name": "Toyota Avensis I (T220) · Рестайлинг",
+    "photo_thumb": "https://avcdn.av.by/advertpreview/0000/5523/1973.jpeg",
     "location": "Минск",
-    "date": "29 января",
-    "production_year": "2006 г.",
-    "short_info": "автомат, 3.5 л, бензин (пропан-бутан), седан",
-    "mileage": "289 681 км",
-    "price": {
-      "byn": "27 479 р.",
-      "usd": "≈ 8 600 $"
-    }
-  },
-  {
-    "name": "Volkswagen Golf IV",
-    "photo_thumb": "https://avcdn.av.by/advertpreview/0000/6203/0985.jpg",
-    "location": "Орша",
     "date": "3 часа назад",
     "production_year": "2002 г.",
-    "short_info": "механика, 1.9 л, дизель, хэтчбек 5 дв.",
-    "mileage": "285 000 км",
+    "short_info": "механика, 2.0 л, дизель, универсал",
+    "mileage": "402 000 км",
     "price": {
-      "byn": "13 580 р.",
-      "usd": "≈ 4 250 $"
+      "byn": "10 864 р.",
+      "usd": "≈ 3 400 $"
     }
   },
   {
-    "name": "Audi RS6 C6",
-    "photo_thumb": "https://avcdn.av.by/advertpreview/0000/6259/5338.jpg",
+    "name": "Hyundai Sonata EF New · Рестайлинг",
+    "photo_thumb": "https://avcdn.av.by/advertpreview/0000/6116/5372.jpg",
     "location": "Минск",
-    "date": "3 часа назад",
-    "production_year": "2008 г.",
-    "short_info": "автомат, 4.2 л, бензин, седан",
-    "mileage": "129 000 км",
+    "date": "16 марта",
+    "production_year": "2004 г.",
+    "short_info": "автомат, 2.4 л, бензин (пропан-бутан), седан",
+    "mileage": "302 700 км",
     "price": {
-      "byn": "36 745 р.",
-      "usd": "≈ 11 500 $"
+      "byn": "7 349 р.",
+      "usd": "≈ 2 300 $"
     }
   },
   {
-    "name": "Nissan Juke YF15 · Рестайлинг",
-    "photo_thumb": "https://avcdn.av.by/advertpreview/0000/6259/4993.jpg",
-    "location": "Сморгонь",
-    "date": "3 часа назад",
-    "production_year": "2015 г.",
-    "short_info": "автомат, 1.6 л, бензин, внедорожник 5 дв.",
-    "mileage": "65 000 км",
-    "price": {
-      "byn": "43 614 р.",
-      "usd": "≈ 13 650 $"
-    }
-  },
-  {
-    "name": "Volkswagen Jetta II",
-    "photo_thumb": "https://avcdn.av.by/advertpreview/0000/6105/0855.jpg",
-    "location": "Брест",
-    "date": "3 часа назад",
-    "production_year": "1988 г.",
-    "short_info": "механика, 1.9 л, дизель, седан",
-    "mileage": "340 028 км",
-    "price": {
-      "byn": "1438 р.",
-      "usd": "≈ 450 $"
-    }
-  },
-  {
-    "name": "Toyota Yaris II (XP9)",
-    "photo_thumb": "https://avcdn.av.by/advertpreview/0000/6233/6346.jpg",
+    "name": "Toyota Camry XV50",
+    "photo_thumb": "https://avcdn.av.by/advertpreview/0000/6265/7292.jpg",
     "location": "Минск",
+    "date": "4 часа назад",
+    "production_year": "2012 г.",
+    "short_info": "автомат, 2.5 л, бензин, седан",
+    "mileage": "194 000 км",
+    "price": {
+      "byn": "46 327 р.",
+      "usd": "≈ 14 499 $"
+    }
+  },
+  {
+    "name": "Renault Grand Scenic IV",
+    "photo_thumb": "https://avcdn.av.by/advertpreview/0000/5864/6469.jpeg",
+    "location": "Гомель",
+    "date": "4 часа назад",
+    "production_year": "2017 г.",
+    "short_info": "механика, 1.5 л, дизель, минивэн",
+    "mileage": "142 842 км",
+    "price": {
+      "byn": "50 804 р.",
+      "usd": "≈ 15 900 $"
+    }
+  },
+  {
+    "name": "Audi A5 8T",
+    "photo_thumb": "https://avcdn.av.by/advertpreview/0000/6240/0410.jpg",
+    "location": "Гомель",
     "date": "4 часа назад",
     "production_year": "2007 г.",
-    "short_info": "автомат, 1.3 л, бензин, хэтчбек 5 дв.",
-    "mileage": "120 000 км",
+    "short_info": "автомат, 3.2 л, бензин, купе",
+    "mileage": "230 000 км",
     "price": {
-      "byn": "19 155 р.",
-      "usd": "≈ 5 995 $"
+      "byn": "22 047 р.",
+      "usd": "≈ 6 900 $"
     }
   },
   {
-    "name": "BMW 7 серия F02 (Long)",
-    "photo_thumb": "https://avcdn.av.by/advertpreview/0000/5849/1242.jpeg",
-    "location": "Пинск",
+    "name": "Acura TSX I",
+    "photo_thumb": "https://avcdn.av.by/advertpreview/0000/5881/1845.jpeg",
+    "location": "Минск",
     "date": "4 часа назад",
-    "production_year": "2011 г.",
-    "short_info": "автомат, 4.4 л, бензин, седан",
-    "mileage": "145 150 км",
+    "production_year": "2004 г.",
+    "short_info": "автомат, 2.4 л, бензин, седан",
+    "mileage": "392 679 км",
     "price": {
-      "byn": "42 656 р.",
-      "usd": "≈ 13 350 $"
+      "byn": "20 769 р.",
+      "usd": "≈ 6 500 $"
+    }
+  },
+  {
+    "name": "Jaguar XF X260",
+    "photo_thumb": "https://avcdn.av.by/advertpreview/0000/6234/4211.jpg",
+    "location": "Минск",
+    "date": "18 марта",
+    "production_year": "2017 г.",
+    "short_info": "автомат, 3.0 л, бензин, седан",
+    "mileage": "51 000 км",
+    "price": {
+      "byn": "91 063 р.",
+      "usd": "≈ 28 500 $"
     }
   }
 ]
