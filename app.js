@@ -10,31 +10,40 @@ const app = express()
 
 const cars = [];
 
-const getHoursAgo = (date) => {
-    if(date.includes('часов')) {
-      return date.split(' часов назад')[0];
-    } else if(date.includes('часа')) {
-      return date.split(' часа назад')[0];
-    }
-  }
 
-const getDaysAgo = (date) => {
-    if(date.includes('дней')) {
-      return date.split(' дней назад')[0];
-    } else if(date.includes('дня')) {
-      return date.split(' дня назад')[0];
-    }
-}
 
 const parseDate = (date) => {
     const today = new Date();
-    const isHoursAgo = date.includes('часов') || date.includes('часа');
+    const isHoursAgo = date.includes('часов') || date.includes('часа') || date.includes('час назад');
     const isDaysAgo = date.includes('дней') || date.includes('дня');
+    let newDate = '';
+    
+    const getHoursAgo = (date) => {
+      if(date.includes('часов')) {
+        return date.split(' часов назад')[0];
+      } else if(date.includes('часа')) {
+        return date.split(' часа назад')[0];
+      } else if(date.includes('час назад')) {
+        return 1;
+      }
+    }
+  
+    const getDaysAgo = (date) => {
+      if(date.includes('дней')) {
+        return date.split(' дней назад')[0];
+      } else if(date.includes('дня')) {
+        return date.split(' дня назад')[0];
+      }
+  }
     
     if(isHoursAgo) {
-        return today.getHours() - getHoursAgo(date);
+      newDate = `${today.getFullYear()}-${today.getMonth()+1}-${today.getDate()} ${today.getHours() - getHoursAgo(date)}:${today.getMinutes()}:${today.getSeconds()}`;
+      return new Date(newDate).toISOString();
     } else if(isDaysAgo) {
-        return today.getDay() - getDaysAgo(date);
+      newDate = `${today.getFullYear()}-${today.getMonth()+1}-${today.getDate() - getDaysAgo(date)} ${today.getHours()}:${today.getMinutes()}:${today.getSeconds()}`;
+      return new Date(newDate).toISOString();
+    } else {
+      return date;
     }
 }
 
@@ -49,7 +58,8 @@ const scrapeData = async () => {
                 photo_thumb: '',
                 link: '',
                 location: '',
-                date: '',
+                posted_timestamp: '',
+                scrape_date: '',
                 production_year: '',
                 short_info: '',
                 mileage: '',
@@ -62,7 +72,8 @@ const scrapeData = async () => {
             car.photo_thumb = $(item).find('.listing-item__photo').find('img').attr('data-src');
             car.link = 'https://cars.av.by' + $(item).find('.listing-item__link').attr('href');
             car.location = $(item).find('.listing-item__location').text();
-            car.date = $(item).find('.listing-item__date').text();
+            car.posted_timestamp = parseDate($(item).find('.listing-item__date').text());
+            car.scrape_date = $(item).find('.listing-item__date').text();
             car.production_year = $(item).find('.listing-item__params').find('div:first-child').text();
             car.short_info = $(item).find('.listing-item__params').find('div:nth-child(2)').text();
             car.mileage =  $(item).find('.listing-item__params').find('div:nth-child(3)').find('span').text();

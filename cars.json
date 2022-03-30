@@ -1,352 +1,377 @@
 [
   {
-    "name": "Volkswagen Tiguan I · Рестайлинг",
-    "photo_thumb": "https://avcdn.av.by/advertpreview/0000/6284/2948.jpg",
-    "link": "https://cars.av.by/volkswagen/tiguan/100834962",
-    "location": "Минск",
-    "date": "2 часа назад",
-    "production_year": "2011 г.",
-    "short_info": "автомат, 2.0 л, бензин, внедорожник 5 дв.",
-    "mileage": "178 000 км",
-    "price": {
-      "byn": "33 132 р.",
-      "usd": "≈ 10 850 $"
-    }
-  },
-  {
-    "name": "Citroen Xantia X2",
-    "photo_thumb": "https://avcdn.av.by/advertpreview/0000/5841/7896.jpeg",
-    "link": "https://cars.av.by/citroen/xantia/100871935",
-    "location": "Минск",
-    "date": "2 часа назад",
-    "production_year": "1998 г.",
-    "short_info": "механика, 2.0 л, бензин (пропан-бутан), хэтчбек 5 дв.",
-    "mileage": "350 000 км",
-    "price": {
-      "byn": "4 245 р.",
-      "usd": "≈ 1390 $"
-    }
-  },
-  {
-    "name": "Land Rover Range Rover IV",
-    "photo_thumb": "https://avcdn.av.by/advertpreview/0000/6111/9290.jpg",
-    "link": "https://cars.av.by/land-rover/range-rover/100776333",
-    "location": "Минск",
-    "date": "2 часа назад",
-    "production_year": "2017 г.",
-    "short_info": "автомат, 4.4 л, дизель, внедорожник 5 дв.",
-    "mileage": "182 350 км",
-    "price": {
-      "byn": "222 913 р.",
-      "usd": "≈ 73 000 $"
-    }
-  },
-  {
-    "name": "Lexus LX III",
-    "photo_thumb": "https://avcdn.av.by/advertpreview/0000/6162/2882.jpg",
-    "link": "https://cars.av.by/lexus/lx/100796279",
-    "location": "Минск",
-    "date": "5 дней назад",
-    "production_year": "2008 г.",
-    "short_info": "автомат, 5.7 л, бензин, внедорожник 5 дв.",
-    "mileage": "313 894 км",
-    "price": {
-      "byn": "82 142 р.",
-      "usd": "≈ 26 900 $"
-    }
-  },
-  {
-    "name": "Toyota RAV4 IV (XA40) · Рестайлинг",
-    "photo_thumb": "https://avcdn.av.by/advertpreview/0000/6081/5678.jpg",
-    "link": "https://cars.av.by/toyota/rav4/100815321",
-    "location": "Минск",
-    "date": "4 февраля",
-    "production_year": "2015 г.",
-    "short_info": "автомат, 2.0 л, бензин, внедорожник 5 дв.",
-    "mileage": "166 350 км",
-    "price": {
-      "byn": "62 599 р.",
-      "usd": "≈ 20 500 $"
-    }
-  },
-  {
-    "name": "Volkswagen Tiguan II",
-    "photo_thumb": "https://avcdn.av.by/advertpreview/0000/6122/3184.jpg",
-    "link": "https://cars.av.by/volkswagen/tiguan/100784041",
-    "location": "Минск",
-    "date": "17 марта",
+    "name": "Opel Astra K",
+    "photo_thumb": "https://avcdn.av.by/advertpreview/0000/6230/1994.jpg",
+    "link": "https://cars.av.by/opel/astra/100947109",
+    "location": "Брест",
+    "posted_timestamp": "2022-03-25T13:33:20.000Z",
+    "scrape_date": "5 дней назад",
     "production_year": "2018 г.",
-    "short_info": "автомат, 2.0 л, дизель, внедорожник 5 дв.",
-    "mileage": "185 000 км",
+    "short_info": "механика, 1.6 л, дизель, универсал",
+    "mileage": "149 500 км",
     "price": {
-      "byn": "85 501 р.",
-      "usd": "≈ 28 000 $"
+      "byn": "38 628 р.",
+      "usd": "≈ 12 650 $"
     }
   },
   {
-    "name": "Renault Logan II",
-    "photo_thumb": "https://avcdn.av.by/advertpreview/0000/6276/1447.jpg",
-    "link": "https://cars.av.by/renault/logan/100342390",
-    "location": "Могилев",
-    "date": "24 февраля",
-    "production_year": "2018 г.",
-    "short_info": "механика, 1.6 л, бензин (метан), седан",
-    "mileage": "278 000 км",
-    "price": {
-      "byn": "16 795 р.",
-      "usd": "≈ 5 500 $"
-    }
-  },
-  {
-    "name": "Jaguar XE",
-    "photo_thumb": "https://avcdn.av.by/advertpreview/0000/6129/2221.jpg",
-    "link": "https://cars.av.by/jaguar/xe/100923738",
-    "location": "Барановичи",
-    "date": "2 часа назад",
-    "production_year": "2016 г.",
-    "short_info": "автомат, 2.0 л, дизель, седан",
-    "mileage": "83 989 км",
-    "price": {
-      "byn": "61 072 р.",
-      "usd": "≈ 20 000 $"
-    }
-  },
-  {
-    "name": "Mercedes-Benz S-Класс W221",
-    "photo_thumb": "https://avcdn.av.by/advertpreview/0000/5483/5591.jpeg",
-    "link": "https://cars.av.by/mercedes-benz/s-klass/100817266",
+    "name": "BMW X5 G05",
+    "photo_thumb": "https://avcdn.av.by/advertpreview/0000/6088/7975.jpg",
+    "link": "https://cars.av.by/bmw/x5/100911818",
     "location": "Минск",
-    "date": "2 часа назад",
-    "production_year": "2007 г.",
-    "short_info": "автомат, 5.5 л, бензин, седан",
-    "mileage": "390 142 км",
-    "price": {
-      "byn": "27 479 р.",
-      "usd": "≈ 8 999 $"
-    }
-  },
-  {
-    "name": "Volkswagen Jetta VII",
-    "photo_thumb": "https://avcdn.av.by/advertpreview/0000/6222/2292.jpg",
-    "link": "https://cars.av.by/volkswagen/jetta/100945759",
-    "location": "Минск",
-    "date": "2 часа назад",
+    "posted_timestamp": "2022-03-28T13:33:20.000Z",
+    "scrape_date": "2 дня назад",
     "production_year": "2019 г.",
-    "short_info": "автомат, 1.4 л, бензин, седан",
-    "mileage": "36 000 км",
+    "short_info": "автомат, 3.0 л, дизель, внедорожник 5 дв.",
+    "mileage": "108 591 км",
     "price": {
-      "byn": "51 606 р.",
-      "usd": "≈ 16 900 $"
+      "byn": "244 135 р.",
+      "usd": "≈ 79 950 $"
     }
   },
   {
-    "name": "Peugeot 308 T7",
-    "photo_thumb": "https://avcdn.av.by/advertpreview/0000/6169/5802.jpg",
-    "link": "https://cars.av.by/peugeot/308/100936835",
-    "location": "Могилев",
-    "date": "20 марта",
-    "production_year": "2008 г.",
-    "short_info": "механика, 1.6 л, бензин, хэтчбек 5 дв.",
-    "mileage": "138 000 км",
-    "price": {
-      "byn": "15 573 р.",
-      "usd": "≈ 5 100 $"
-    }
-  },
-  {
-    "name": "Fiat 500L",
-    "photo_thumb": "https://avcdn.av.by/advertpreview/0000/6120/3869.jpg",
-    "link": "https://cars.av.by/fiat/500l/100922334",
-    "location": "Минск",
-    "date": "2 часа назад",
-    "production_year": "2013 г.",
-    "short_info": "автомат, 1.4 л, бензин, минивэн",
-    "mileage": "156 200 км",
-    "price": {
-      "byn": "28 093 р.",
-      "usd": "≈ 9 200 $"
-    }
-  },
-  {
-    "name": "BMW 3 серия G20",
-    "photo_thumb": "https://avcdn.av.by/advertpreview/0000/5695/9040.jpeg",
-    "link": "https://cars.av.by/bmw/3-seriya/100849942",
-    "location": "Минск",
-    "date": "2 дня назад",
-    "production_year": "2019 г.",
+    "name": "Ford Focus I · Рестайлинг",
+    "photo_thumb": "https://avcdn.av.by/advertpreview/0000/6288/2489.jpg",
+    "link": "https://cars.av.by/ford/focus/100962944",
+    "location": "Молодечно",
+    "posted_timestamp": "2022-03-30T11:33:20.000Z",
+    "scrape_date": "2 часа назад",
+    "production_year": "2002 г.",
     "short_info": "автомат, 2.0 л, бензин, седан",
-    "mileage": "24 567 км",
+    "mileage": "262 000 км",
     "price": {
-      "byn": "128 099 р.",
-      "usd": "≈ 41 950 $"
+      "byn": "6 687 р.",
+      "usd": "≈ 2 190 $"
     }
   },
   {
-    "name": "Hyundai i30 GD · Рестайлинг",
-    "photo_thumb": "https://avcdn.av.by/advertpreview/0000/5986/8518.jpeg",
-    "link": "https://cars.av.by/hyundai/i30/100780300",
+    "name": "BMW 5 серия F10, F11",
+    "photo_thumb": "https://avcdn.av.by/advertpreview/0000/5772/4448.jpeg",
+    "link": "https://cars.av.by/bmw/5-seriya/100860906",
     "location": "Минск",
-    "date": "8 марта",
-    "production_year": "2016 г.",
-    "short_info": "механика, 1.4 л, дизель, универсал",
-    "mileage": "133 000 км",
+    "posted_timestamp": "2022-03-28T13:33:20.000Z",
+    "scrape_date": "2 дня назад",
+    "production_year": "2013 г.",
+    "short_info": "автомат, 2.0 л, бензин, седан",
+    "mileage": "238 238 км",
     "price": {
-      "byn": "32 231 р.",
-      "usd": "≈ 10 555 $"
+      "byn": "51 148 р.",
+      "usd": "≈ 16 750 $"
+    }
+  },
+  {
+    "name": "Citroen C5 I",
+    "photo_thumb": "https://avcdn.av.by/advertpreview/0000/6253/2295.jpg",
+    "link": "https://cars.av.by/citroen/c5/100951073",
+    "location": "Минск",
+    "posted_timestamp": "2022-03-28T13:33:20.000Z",
+    "scrape_date": "2 дня назад",
+    "production_year": "2004 г.",
+    "short_info": "механика, 1.8 л, бензин, лифтбек",
+    "mileage": "238 000 км",
+    "price": {
+      "byn": "11 909 р.",
+      "usd": "≈ 3 900 $"
+    }
+  },
+  {
+    "name": "Ford S-MAX II",
+    "photo_thumb": "https://avcdn.av.by/advertpreview/0000/6093/5797.jpg",
+    "link": "https://cars.av.by/ford/s-max/100912591",
+    "location": "Минск",
+    "posted_timestamp": "2022-03-30T11:33:20.000Z",
+    "scrape_date": "2 часа назад",
+    "production_year": "2017 г.",
+    "short_info": "автомат, 2.0 л, дизель, минивэн",
+    "mileage": "168 000 км",
+    "price": {
+      "byn": "57 866 р.",
+      "usd": "≈ 18 950 $"
+    }
+  },
+  {
+    "name": "BMW 7 серия E65",
+    "photo_thumb": "https://avcdn.av.by/advertpreview/0000/6231/4609.jpg",
+    "link": "https://cars.av.by/bmw/7-seriya/100947317",
+    "location": "Минск",
+    "posted_timestamp": "2022-03-30T11:33:20.000Z",
+    "scrape_date": "2 часа назад",
+    "production_year": "2002 г.",
+    "short_info": "автомат, 3.6 л, бензин, седан",
+    "mileage": "355 750 км",
+    "price": {
+      "byn": "18 016 р.",
+      "usd": "≈ 5 900 $"
+    }
+  },
+  {
+    "name": "Mercedes-Benz C-Класс W204, S204",
+    "photo_thumb": "https://avcdn.av.by/advertpreview/0000/6287/8104.jpg",
+    "link": "https://cars.av.by/mercedes-benz/c-klass/100962947",
+    "location": "Могилев",
+    "posted_timestamp": "2022-03-30T11:33:20.000Z",
+    "scrape_date": "2 часа назад",
+    "production_year": "2012 г.",
+    "short_info": "автомат, 1.8 л, бензин, седан",
+    "mileage": "172 400 км",
+    "price": {
+      "byn": "38 170 р.",
+      "usd": "≈ 12 500 $"
+    }
+  },
+  {
+    "name": "Nissan Pixo",
+    "photo_thumb": "https://avcdn.av.by/advertpreview/0000/3345/1622.jpeg",
+    "link": "https://cars.av.by/nissan/pixo/100459478",
+    "location": "Минск",
+    "posted_timestamp": "2022-03-30T11:33:20.000Z",
+    "scrape_date": "2 часа назад",
+    "production_year": "2010 г.",
+    "short_info": "механика, 1.0 л, бензин, хэтчбек 5 дв.",
+    "mileage": "213 000 км",
+    "price": {
+      "byn": "12 062 р.",
+      "usd": "≈ 3 950 $"
+    }
+  },
+  {
+    "name": "Volvo S60 II",
+    "photo_thumb": "https://avcdn.av.by/advertpreview/0000/5959/3491.jpeg",
+    "link": "https://cars.av.by/volvo/s60/100889170",
+    "location": "Минск",
+    "posted_timestamp": "15 марта",
+    "scrape_date": "15 марта",
+    "production_year": "2011 г.",
+    "short_info": "автомат, 1.6 л, бензин, седан",
+    "mileage": "108 000 км",
+    "price": {
+      "byn": "44 247 р.",
+      "usd": "≈ 14 490 $"
+    }
+  },
+  {
+    "name": "Volkswagen Polo VI",
+    "photo_thumb": "https://avcdn.av.by/advertpreview/0000/6259/3863.jpg",
+    "link": "https://cars.av.by/volkswagen/polo/100940471",
+    "location": "Могилев",
+    "posted_timestamp": "вчера",
+    "scrape_date": "вчера",
+    "production_year": "2022 г.",
+    "short_info": "механика, 1.6 л, бензин, лифтбек",
+    "mileage": "10 км",
+    "price": {
+      "byn": "52 000 р.",
+      "usd": "≈ 17 029 $"
+    }
+  },
+  {
+    "name": "Kia Sportage IV",
+    "photo_thumb": "https://avcdn.av.by/advertpreview/0000/5763/9218.jpeg",
+    "link": "https://cars.av.by/kia/sportage/100824127",
+    "location": "Минск",
+    "posted_timestamp": "2022-03-30T11:33:20.000Z",
+    "scrape_date": "2 часа назад",
+    "production_year": "2016 г.",
+    "short_info": "автомат, 2.4 л, бензин, внедорожник 5 дв.",
+    "mileage": "78 000 км",
+    "price": {
+      "byn": "54 965 р.",
+      "usd": "≈ 18 000 $"
+    }
+  },
+  {
+    "name": "BMW 5 серия E39",
+    "photo_thumb": "https://avcdn.av.by/advertpreview/0000/6289/1355.jpg",
+    "link": "https://cars.av.by/bmw/5-seriya/100945059",
+    "location": "Лепель",
+    "posted_timestamp": "2022-03-30T11:33:20.000Z",
+    "scrape_date": "2 часа назад",
+    "production_year": "2001 г.",
+    "short_info": "механика, 2.0 л, дизель, универсал",
+    "mileage": "300 000 км",
+    "price": {
+      "byn": "11 756 р.",
+      "usd": "≈ 3 850 $"
+    }
+  },
+  {
+    "name": "Opel Astra H · Рестайлинг",
+    "photo_thumb": "https://avcdn.av.by/advertpreview/0000/6205/9999.jpg",
+    "link": "https://cars.av.by/opel/astra/100942213",
+    "location": "Минск",
+    "posted_timestamp": "2022-03-30T05:33:20.000Z",
+    "scrape_date": "8 часов назад",
+    "production_year": "2008 г.",
+    "short_info": "механика, 1.6 л, бензин, универсал",
+    "mileage": "204 878 км",
+    "price": {
+      "byn": "18 169 р.",
+      "usd": "≈ 5 950 $"
+    }
+  },
+  {
+    "name": "Toyota RAV4 II (XA20)",
+    "photo_thumb": "https://avcdn.av.by/advertpreview/0000/5888/4578.jpeg",
+    "link": "https://cars.av.by/toyota/rav4/100878649",
+    "location": "Дзержинск",
+    "posted_timestamp": "2022-03-30T11:33:20.000Z",
+    "scrape_date": "2 часа назад",
+    "production_year": "2001 г.",
+    "short_info": "автомат, 2.0 л, бензин, внедорожник 5 дв.",
+    "mileage": "226 000 км",
+    "price": {
+      "byn": "19 848 р.",
+      "usd": "≈ 6 500 $"
+    }
+  },
+  {
+    "name": "Mazda 6 I · Рестайлинг",
+    "photo_thumb": "https://avcdn.av.by/advertpreview/0000/5001/9207.jpeg",
+    "link": "https://cars.av.by/mazda/6/100083734",
+    "location": "Минск",
+    "posted_timestamp": "2022-03-30T11:33:20.000Z",
+    "scrape_date": "2 часа назад",
+    "production_year": "2007 г.",
+    "short_info": "механика, 2.3 л, бензин, седан",
+    "mileage": "65 000 км",
+    "price": {
+      "byn": "22 902 р.",
+      "usd": "≈ 7 500 $"
+    }
+  },
+  {
+    "name": "Renault Logan II · Рестайлинг",
+    "photo_thumb": "https://avcdn.av.by/advertpreview/0000/6157/6327.jpg",
+    "link": "https://cars.av.by/renault/logan/100793017",
+    "location": "Гомель",
+    "posted_timestamp": "2022-03-30T11:33:20.000Z",
+    "scrape_date": "2 часа назад",
+    "production_year": "2019 г.",
+    "short_info": "механика, 1.6 л, бензин, седан",
+    "mileage": "60 000 км",
+    "price": {
+      "byn": "28 398 р.",
+      "usd": "≈ 9 300 $"
+    }
+  },
+  {
+    "name": "Chevrolet Equinox III",
+    "photo_thumb": "https://avcdn.av.by/advertpreview/0000/6287/5204.jpg",
+    "link": "https://cars.av.by/chevrolet/equinox/100858336",
+    "location": "Гомель",
+    "posted_timestamp": "2022-03-30T11:33:20.000Z",
+    "scrape_date": "2 часа назад",
+    "production_year": "2020 г.",
+    "short_info": "автомат, 1.5 л, бензин, внедорожник 5 дв.",
+    "mileage": "31 000 км",
+    "price": {
+      "byn": "57 255 р.",
+      "usd": "≈ 18 750 $"
+    }
+  },
+  {
+    "name": "Kia Magentis I",
+    "photo_thumb": "https://avcdn.av.by/advertpreview/0000/6037/9868.jpg",
+    "link": "https://cars.av.by/kia/magentis/100895491",
+    "location": "Минск",
+    "posted_timestamp": "2022-03-30T11:33:20.000Z",
+    "scrape_date": "2 часа назад",
+    "production_year": "2002 г.",
+    "short_info": "механика, 2.0 л, бензин, седан",
+    "mileage": "290 000 км",
+    "price": {
+      "byn": "3 664 р.",
+      "usd": "≈ 1200 $"
+    }
+  },
+  {
+    "name": "BMW 5 серия E60, E61",
+    "photo_thumb": "https://avcdn.av.by/advertpreview/0000/6172/4583.jpg",
+    "link": "https://cars.av.by/bmw/5-seriya/100738754",
+    "location": "Гомель",
+    "posted_timestamp": "2022-03-30T11:33:20.000Z",
+    "scrape_date": "2 часа назад",
+    "production_year": "2004 г.",
+    "short_info": "автомат, 2.5 л, дизель, седан",
+    "mileage": "339 000 км",
+    "price": {
+      "byn": "30 536 р.",
+      "usd": "≈ 10 000 $"
     }
   },
   {
     "name": "BMW 3 серия E90, E91, E92, E93",
-    "photo_thumb": "https://avcdn.av.by/advertpreview/0000/6186/3076.jpg",
-    "link": "https://cars.av.by/bmw/3-seriya/100873036",
+    "photo_thumb": "https://avcdn.av.by/advertpreview/0000/6109/8210.jpg",
+    "link": "https://cars.av.by/bmw/3-seriya/100920627",
     "location": "Минск",
-    "date": "22 марта",
-    "production_year": "2010 г.",
-    "short_info": "автомат, 2.0 л, бензин, седан",
-    "mileage": "167 000 км",
-    "price": {
-      "byn": "27 482 р.",
-      "usd": "≈ 9 000 $"
-    }
-  },
-  {
-    "name": "Renault Scenic IV",
-    "photo_thumb": "https://avcdn.av.by/advertpreview/0000/6041/8100.jpg",
-    "link": "https://cars.av.by/renault/scenic/100899382",
-    "location": "Минск",
-    "date": "2 часа назад",
-    "production_year": "2017 г.",
-    "short_info": "автомат, 1.5 л, дизель, минивэн",
-    "mileage": "184 000 км",
-    "price": {
-      "byn": "44 583 р.",
-      "usd": "≈ 14 600 $"
-    }
-  },
-  {
-    "name": "BMW 7 серия F01, F04",
-    "photo_thumb": "https://avcdn.av.by/advertpreview/0000/5644/2816.jpeg",
-    "link": "https://cars.av.by/bmw/7-seriya/100842007",
-    "location": "Минск",
-    "date": "3 часа назад",
-    "production_year": "2008 г.",
-    "short_info": "автомат, 4.4 л, бензин, седан",
-    "mileage": "183 000 км",
-    "price": {
-      "byn": "48 552 р.",
-      "usd": "≈ 15 900 $"
-    }
-  },
-  {
-    "name": "Dodge Caravan III, 7 мест",
-    "photo_thumb": "https://avcdn.av.by/advertpreview/0000/6228/8410.jpg",
-    "link": "https://cars.av.by/dodge/caravan/100946863",
-    "location": "Минск",
-    "date": "15 часов назад",
-    "production_year": "2000 г.",
-    "short_info": "автомат, 2.4 л, бензин (пропан-бутан), минивэн",
-    "mileage": "247 000 км",
-    "price": {
-      "byn": "4 883 р.",
-      "usd": "≈ 1599 $"
-    }
-  },
-  {
-    "name": "Renault Laguna II",
-    "photo_thumb": "https://avcdn.av.by/advertpreview/0000/6236/1333.jpg",
-    "link": "https://cars.av.by/renault/laguna/100947986",
-    "location": "Витебск",
-    "date": "3 часа назад",
+    "posted_timestamp": "16 марта",
+    "scrape_date": "16 марта",
     "production_year": "2007 г.",
-    "short_info": "механика, 1.9 л, дизель, универсал",
-    "mileage": "281 859 км",
+    "short_info": "механика, 2.0 л, бензин, седан",
+    "mileage": "296 000 км",
     "price": {
-      "byn": "17 558 р.",
-      "usd": "≈ 5 750 $"
+      "byn": "24 429 р.",
+      "usd": "≈ 8 000 $"
     }
   },
   {
-    "name": "Fiat Marea",
-    "photo_thumb": "https://avcdn.av.by/advertpreview/0000/6229/2102.jpg",
-    "link": "https://cars.av.by/fiat/marea/100946954",
-    "location": "Солигорск",
-    "date": "4 дня назад",
-    "production_year": "1997 г.",
-    "short_info": "механика, 1.9 л, дизель, седан",
-    "mileage": "333 333 км",
-    "price": {
-      "byn": "5 955 р.",
-      "usd": "≈ 1950 $"
-    }
-  },
-  {
-    "name": "Hyundai Coupe GK F, L2 · Рестайлинг",
-    "photo_thumb": "https://avcdn.av.by/advertpreview/0000/5677/7268.jpeg",
-    "link": "https://cars.av.by/hyundai/coupe/100836065",
+    "name": "Volkswagen Golf Alltrack II",
+    "photo_thumb": "https://avcdn.av.by/advertpreview/0000/5971/9843.jpeg",
+    "link": "https://cars.av.by/volkswagen/alltrack/100890924",
     "location": "Минск",
-    "date": "3 часа назад",
-    "production_year": "2008 г.",
-    "short_info": "автомат, 2.7 л, бензин, купе",
-    "mileage": "184 000 км",
+    "posted_timestamp": "2022-03-30T11:33:20.000Z",
+    "scrape_date": "2 часа назад",
+    "production_year": "2017 г.",
+    "short_info": "автомат, 1.8 л, бензин, универсал",
+    "mileage": "87 000 км",
     "price": {
-      "byn": "22 139 р.",
-      "usd": "≈ 7 250 $"
+      "byn": "66 874 р.",
+      "usd": "≈ 21 900 $"
     }
   },
   {
-    "name": "Ford Fusion USA II",
-    "photo_thumb": "https://avcdn.av.by/advertpreview/0000/6167/3662.jpg",
-    "link": "https://cars.av.by/ford/fusion-usa/100920533",
+    "name": "Nissan X-Trail I (T30)",
+    "photo_thumb": "https://avcdn.av.by/advertpreview/0000/6280/5659.jpg",
+    "link": "https://cars.av.by/nissan/x-trail/100961757",
     "location": "Минск",
-    "date": "16 марта",
-    "production_year": "2013 г.",
-    "short_info": "автомат, 1.5 л, бензин, седан",
-    "mileage": "114 000 км",
+    "posted_timestamp": "2022-03-30T12:33:20.000Z",
+    "scrape_date": "21 час назад",
+    "production_year": "2002 г.",
+    "short_info": "автомат, 2.0 л, бензин, внедорожник 5 дв.",
+    "mileage": "293 600 км",
     "price": {
-      "byn": "35 113 р.",
-      "usd": "≈ 11 499 $"
+      "byn": "19 085 р.",
+      "usd": "≈ 6 250 $"
     }
   },
   {
-    "name": "Volkswagen Jetta V",
-    "photo_thumb": "https://avcdn.av.by/advertpreview/0000/6274/6319.jpg",
-    "link": "https://cars.av.by/volkswagen/jetta/100927211",
-    "location": "Калинковичи",
-    "date": "вчера",
-    "production_year": "2008 г.",
-    "short_info": "автомат, 1.6 л, бензин, седан",
-    "mileage": "250 000 км",
-    "price": {
-      "byn": "16 795 р.",
-      "usd": "≈ 5 500 $"
-    }
-  },
-  {
-    "name": "Kia Rio IV",
-    "photo_thumb": "https://avcdn.av.by/advertpreview/0000/6001/4290.jpeg",
-    "link": "https://cars.av.by/kia/rio/100895698",
-    "location": "Витебск",
-    "date": "4 часа назад",
-    "production_year": "2019 г.",
-    "short_info": "механика, 1.4 л, бензин, седан",
-    "mileage": "120 000 км",
-    "price": {
-      "byn": "23 513 р.",
-      "usd": "≈ 7 700 $"
-    }
-  },
-  {
-    "name": "Toyota Corolla Verso II (E121), 7 мест",
-    "photo_thumb": "https://avcdn.av.by/advertpreview/0000/6283/6953.jpg",
-    "link": "https://cars.av.by/toyota/corolla-verso/100841797",
+    "name": "BMW 4 серия F32, F33 (Рестайлинг)",
+    "photo_thumb": "https://avcdn.av.by/advertpreview/0000/6287/2124.jpg",
+    "link": "https://cars.av.by/bmw/4-seriya/100751741",
     "location": "Минск",
-    "date": "4 часа назад",
-    "production_year": "2006 г.",
-    "short_info": "автомат, 1.8 л, бензин, минивэн",
-    "mileage": "306 000 км",
+    "posted_timestamp": "2022-03-30T10:33:20.000Z",
+    "scrape_date": "3 часа назад",
+    "production_year": "2018 г.",
+    "short_info": "автомат, 3.0 л, бензин, кабриолет",
+    "mileage": "46 000 км",
     "price": {
-      "byn": "22 288 р.",
-      "usd": "≈ 7 299 $"
+      "byn": "186 270 р.",
+      "usd": "≈ 61 000 $"
+    }
+  },
+  {
+    "name": "Peugeot 406 I · Рестайлинг",
+    "photo_thumb": "https://avcdn.av.by/advertpreview/0000/6270/1182.jpg",
+    "link": "https://cars.av.by/peugeot/406/100959574",
+    "location": "Минск",
+    "posted_timestamp": "2022-03-30T10:33:20.000Z",
+    "scrape_date": "3 часа назад",
+    "production_year": "1999 г.",
+    "short_info": "механика, 1.8 л, бензин, седан",
+    "mileage": "500 000 км",
+    "price": {
+      "byn": "4 577 р.",
+      "usd": "≈ 1499 $"
     }
   }
 ]
