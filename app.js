@@ -4,37 +4,50 @@ const axios = require('axios');
 const cheerio = require('cheerio');
 const pretty = require('pretty');
 const fs = require("fs");
-const { connect } = require('http2');
+const constants = require('./constants');
 
-const app = express();
-const PORT = process.env.PORT || 3000;
+const app = express()
 
-async function start() {
-    try {
-        await connect('', {
-            useNewUrlParser: true,
-            useFindAndModify: false
-        })
-        app.listen(PORT, () => {
-            console.log('Server has been started');
-        });
-    } catch (error) {
-        console.log(error)
+const cars = [];
+
+const getHoursAgo = (date) => {
+    if(date.includes('часов')) {
+      return date.split(' часов назад')[0];
+    } else if(date.includes('часа')) {
+      return date.split(' часа назад')[0];
     }
-} 
+  }
 
-const url = 'https://cars.av.by/filter?page=2';
+const getDaysAgo = (date) => {
+    if(date.includes('дней')) {
+      return date.split(' дней назад')[0];
+    } else if(date.includes('дня')) {
+      return date.split(' дня назад')[0];
+    }
+}
+
+const parseDate = (date) => {
+    const today = new Date();
+    const isHoursAgo = date.includes('часов') || date.includes('часа');
+    const isDaysAgo = date.includes('дней') || date.includes('дня');
+    
+    if(isHoursAgo) {
+        return today.getHours() - getHoursAgo(date);
+    } else if(isDaysAgo) {
+        return today.getDay() - getDaysAgo(date);
+    }
+}
 
 const scrapeData = async () => {
     try {
-        const { data } = await axios.get(url);
+        const { data } = await axios.get(constants.TARGET);
         const $ = cheerio.load(data);
         const listItems = $('.listing-item');
-        const cars = [];
         listItems.each((key, item) => {
             const car = {
                 name: '',
                 photo_thumb: '',
+                link: '',
                 location: '',
                 date: '',
                 production_year: '',
@@ -47,6 +60,7 @@ const scrapeData = async () => {
             };
             car.name = $(item).find('h3.listing-item__title').text();
             car.photo_thumb = $(item).find('.listing-item__photo').find('img').attr('data-src');
+            car.link = 'https://cars.av.by' + $(item).find('.listing-item__link').attr('href');
             car.location = $(item).find('.listing-item__location').text();
             car.date = $(item).find('.listing-item__date').text();
             car.production_year = $(item).find('.listing-item__params').find('div:first-child').text();
@@ -57,16 +71,34 @@ const scrapeData = async () => {
             cars.push(car);
         })
         console.log(cars);
+        
         fs.writeFile('cars.json', JSON.stringify(cars, null, 2), (err) => {
             if(err) {
-                console.log(err)
+                console.log(constants.SERVER_STATUS.ERROR, err);
                 return;
             }
-            console.log('status: done')
+            console.log(constants.SERVER_STATUS.DONE);
         })
     } catch (err) {
-        console.log(err);
+        console.log(constants.SERVER_STATUS.ERROR, err);
     }
 }
 scrapeData();
-start();
+
+
+
+app.get('/', (req, res) => {
+    fs.readFile('./app.js', 'utf8', (err, data) => {
+      if (err) {
+        throw err;
+      }
+      res.send((data));
+    });
+  });
+
+app.listen(constants.PORT)
+
+// mongoose.connect('mongodb://localhost:27017/{db name}')
+//     .then(() => {
+//         console.log('test connection')
+//     })
