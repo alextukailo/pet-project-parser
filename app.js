@@ -5,47 +5,12 @@ const cheerio = require('cheerio');
 const pretty = require('pretty');
 const fs = require("fs");
 const constants = require('./constants');
+const parseDate = require('./helpers.js');
+const BodyParser = require('body-parser');
 
 const app = express()
 
 const cars = [];
-
-
-
-const parseDate = (date) => {
-    const today = new Date();
-    const isHoursAgo = date.includes('часов') || date.includes('часа') || date.includes('час назад');
-    const isDaysAgo = date.includes('дней') || date.includes('дня');
-    let newDate = '';
-    
-    const getHoursAgo = (date) => {
-      if(date.includes('часов')) {
-        return date.split(' часов назад')[0];
-      } else if(date.includes('часа')) {
-        return date.split(' часа назад')[0];
-      } else if(date.includes('час назад')) {
-        return 1;
-      }
-    }
-  
-    const getDaysAgo = (date) => {
-      if(date.includes('дней')) {
-        return date.split(' дней назад')[0];
-      } else if(date.includes('дня')) {
-        return date.split(' дня назад')[0];
-      }
-  }
-    
-    if(isHoursAgo) {
-      newDate = `${today.getFullYear()}-${today.getMonth()+1}-${today.getDate()} ${today.getHours() - getHoursAgo(date)}:${today.getMinutes()}:${today.getSeconds()}`;
-      return new Date(newDate).toISOString();
-    } else if(isDaysAgo) {
-      newDate = `${today.getFullYear()}-${today.getMonth()+1}-${today.getDate() - getDaysAgo(date)} ${today.getHours()}:${today.getMinutes()}:${today.getSeconds()}`;
-      return new Date(newDate).toISOString();
-    } else {
-      return date;
-    }
-}
 
 const scrapeData = async () => {
     try {
@@ -68,6 +33,7 @@ const scrapeData = async () => {
                     usd: ''
                 }
             };
+
             car.name = $(item).find('h3.listing-item__title').text();
             car.photo_thumb = $(item).find('.listing-item__photo').find('img').attr('data-src');
             car.link = 'https://cars.av.by' + $(item).find('.listing-item__link').attr('href');
@@ -96,20 +62,56 @@ const scrapeData = async () => {
 }
 scrapeData();
 
+app.use(BodyParser.json());
+app.use(BodyParser.urlencoded({ extended: true }));
 
 
-app.get('/', (req, res) => {
-    fs.readFile('./app.js', 'utf8', (err, data) => {
-      if (err) {
-        throw err;
-      }
-      res.send((data));
-    });
-  });
+const CarModel = mongoose.model('cars', {
+  name: String,
+  url: String,
+  photo_thumb: String,
+  link: String,
+  location: String,
+  posted_timestamp: String,
+  scrape_date: String,
+  production_year: String,
+  short_info: String,
+  mileage: String,
+  price: {
+      byn: String,
+      usd: String
+  },
+  created: { type: Date, default: Date.now },
+})
+
+app.post('/cars', async (req, res, next) => {
+  try {
+    const car = new CarModel(req.body);
+    const result = await car.save();
+    res.send(result);
+  } catch (err) {
+    res.status(500).send(err)
+  }
+})
+
+app.get('/cars', async (req, res, next) => {
+  try {
+    const result = await CarModel.find().exec();
+    res.send(result);
+  } catch (err) {
+    res.status(500).send(err)
+  }
+})
+
+// app.get('/', (req, res) => {
+//     fs.readFile('./app.js', 'utf8', (err, data) => {
+//       if (err) {
+//         throw err;
+//       }
+//       res.send((data));
+//     });
+//   });
 
 app.listen(constants.PORT)
 
-// mongoose.connect('mongodb://localhost:27017/{db name}')
-//     .then(() => {
-//         console.log('test connection')
-//     })
+mongoose.connect('mongodb://localhost:27017', {useNewUrlParser: true, useUnifiedTopology: true});
