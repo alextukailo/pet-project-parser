@@ -5,7 +5,7 @@ const cheerio = require("cheerio");
 const pretty = require("pretty");
 const fs = require("fs");
 const constants = require("./constants");
-const parseDate = require("./helpers.js");
+const parseFullDate = require("./date/parseFullDate.js");
 const BodyParser = require("body-parser");
 
 const app = express();
@@ -42,7 +42,7 @@ const scrapeData = async () => {
       car.link =
         "https://cars.av.by" + $(item).find(".listing-item__link").attr("href");
       car.location = $(item).find(".listing-item__location").text();
-      car.posted_timestamp = $(item).find(".listing-item__date").text()
+      car.posted_timestamp = parseFullDate($(item).find(".listing-item__date").text())
       car.scrape_date = $(item).find(".listing-item__date").text();
       car.production_year = $(item)
         .find(".listing-item__params")
@@ -75,7 +75,6 @@ const scrapeData = async () => {
   }
 };
 scrapeData();
-parseDate('2 дня назад')
 
 app.use(BodyParser.json());
 app.use(BodyParser.urlencoded({ extended: true }));
@@ -98,37 +97,29 @@ const CarModel = mongoose.model("cars", {
   created: { type: Date, default: Date.now },
 });
 
-app.post("/cars", async (req, res, next) => {
-  try {
-    const car = new CarModel(req.body);
-    const result = await car.save();
-    res.send(result);
-  } catch (err) {
-    res.status(500).send(err);
-  }
-});
+// app.post("/cars", async (req, res, next) => {
+//   try {
+//     const car = new CarModel(req.body);
+//     const result = await car.save();
+//     res.send(result);
+//   } catch (err) {
+//     res.status(500).send(err);
+//   }
+// });
 
-app.get("/cars", async (req, res, next) => {
-  try {
-    const result = await CarModel.find().exec();
-    res.send(result);
-  } catch (err) {
-    res.status(500).send(err);
-  }
-});
+// app.get("/cars", async (req, res, next) => {
+//   try {
+//     const result = await CarModel.find().exec();
+//     res.send(result);
+//   } catch (err) {
+//     res.status(500).send(err);
+//   }
+// });
 
-// app.get('/', (req, res) => {
-//     fs.readFile('./app.js', 'utf8', (err, data) => {
-//       if (err) {
-//         throw err;
-//       }
-//       res.send((data));
-//     });
-//   });
 
-app.listen(constants.PORT);
+// app.listen(constants.PORT);
 
-mongoose.connect("mongodb://localhost:27017", {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
-});
+// mongoose.connect("mongodb://localhost:27017", {
+//   useNewUrlParser: true,
+//   useUnifiedTopology: true,
+// });
