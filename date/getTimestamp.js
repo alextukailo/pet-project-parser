@@ -1,4 +1,3 @@
-const Sugar = require("sugar");
 const parseByHour = require("./parseByHour");
 const parseByDay = require("./parseByDay");
 const parseByMonth = require("./parseByMonth");
