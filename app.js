@@ -5,7 +5,7 @@ const cheerio = require("cheerio");
 const pretty = require("pretty");
 const fs = require("fs");
 const constants = require("./constants");
-const parseFullDate = require("./date/parseFullDate.js");
+const parseFullDate = require("./date/getFullDate.js");
 const BodyParser = require("body-parser");
 
 const app = express();
