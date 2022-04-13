@@ -5,5 +5,6 @@ exports.SERVER_STATUS = {
 };
 
 exports.TARGET = 'https://cars.av.by/filter?page=2';
+exports.TARGET2 = 'https://ab.onliner.by/';
 
 exports.PORT = process.env.PORT || 3000;

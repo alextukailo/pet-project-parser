@@ -2,11 +2,13 @@ const express = require("express");
 const mongoose = require("mongoose");
 const BodyParser = require("body-parser");
 
-const scraper = require("./scraper.js");
+const scrapeAv = require("./scrapeAv.js");
+const scrapeOnliner = require("./scrapeOnliner.js");
 
 const app = express();
 
-scraper();
+// scrapeAv();
+scrapeOnliner();
 
 // app.use(BodyParser.json());
 // app.use(BodyParser.urlencoded({ extended: true }));

@@ -5,13 +5,14 @@ const fs = require("fs");
 const constants = require("./constants");
 const parseFullDate = require("./date/getTimestamp.js");
 
-const scraper = async () => {
+const scrapeAv = async () => {
   const cars = [];
 
   try {
     const { data } = await axios.get(constants.TARGET);
     const $ = cheerio.load(data);
     const listItems = $(".listing-item");
+    console.log('test', listItems)
     listItems.each((key, item) => {
       const car = {
         name: "",
@@ -60,7 +61,7 @@ const scraper = async () => {
     });
     console.log(cars);
 
-    fs.writeFile("cars.json", JSON.stringify(cars, null, 2), (err) => {
+    fs.writeFile("carsAv.json", JSON.stringify(cars, null, 2), (err) => {
       if (err) {
         console.log(constants.SERVER_STATUS.ERROR, err);
         return;
@@ -72,4 +73,4 @@ const scraper = async () => {
   }
 };
 
-module.exports = scraper;
+module.exports = scrapeAv;
