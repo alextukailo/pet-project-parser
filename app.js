@@ -3,12 +3,18 @@ const mongoose = require("mongoose");
 const BodyParser = require("body-parser");
 
 const scrapeAv = require("./scrapeAv.js");
-const scrapeOnliner = require("./scrapeOnliner.js");
+const scrapeKufar = require("./scrapeKufar.js");
 
 const app = express();
 
-// scrapeAv();
-scrapeOnliner();
+
+const initScripts = {
+  init: function () {
+    scrapeAv();
+    scrapeKufar();
+  }
+}
+initScripts.init()
 
 // app.use(BodyParser.json());
 // app.use(BodyParser.urlencoded({ extended: true }));

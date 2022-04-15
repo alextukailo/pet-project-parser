@@ -1,0 +1,497 @@
+[
+  {
+    "name": "Volkswagen Polo Sedan",
+    "photo_thumb": "https://yams.kufar.by/api/v1/kufar-ads/images/95/9589483850.jpg?rule=list_thumbs_2x",
+    "link": "https://auto.kufar.by/vi/148360533",
+    "location": "Гродно",
+    "posted_timestamp": "",
+    "scrape_date": "",
+    "production_year": "2017",
+    "short_info": "1.6 л, бензин2017, 1.6 л, бензин",
+    "mileage": "",
+    "price": {
+      "byn": "34 034 р.",
+      "usd": "11 900 $ *"
+    }
+  },
+  {
+    "name": "BMW 7 E38",
+    "photo_thumb": "https://yams.kufar.by/api/v1/kufar-ads/images/84/8495193797.jpg?rule=list_thumbs_2x",
+    "link": "https://auto.kufar.by/vi/152828491",
+    "location": "Гродно",
+    "posted_timestamp": "",
+    "scrape_date": "",
+    "production_year": "1996",
+    "short_info": "2.8 л, газ1996, 2.8 л, газ",
+    "mileage": "",
+    "price": {
+      "byn": "11 437 р.",
+      "usd": "3 999 $ *"
+    }
+  },
+  {
+    "name": "Mazda 626 GE, 1997 г.",
+    "photo_thumb": "https://yams.kufar.by/api/v1/kufar-ads/images/96/9628325211.jpg?rule=list_thumbs_2x",
+    "link": "https://auto.kufar.by/vi/154035922",
+    "location": "Гомель",
+    "posted_timestamp": "",
+    "scrape_date": "",
+    "production_year": "1997",
+    "short_info": "2.0 л, бензин1997, 2.0 л, бензин",
+    "mileage": "",
+    "price": {
+      "byn": "5 691 р.",
+      "usd": "1 990 $ *"
+    }
+  },
+  {
+    "name": "Renault Scenic I Рестайлинг",
+    "photo_thumb": "https://yams.kufar.by/api/v1/kufar-ads/images/97/9767062550.jpg?rule=list_thumbs_2x",
+    "link": "https://auto.kufar.by/vi/154096364",
+    "location": "Витебская, Орша",
+    "posted_timestamp": "",
+    "scrape_date": "",
+    "production_year": "1999",
+    "short_info": "Механика, 2.0 л, бензин, минивэн1999, 233 000 км, механика, 2.0 л, бензин, минивэн",
+    "mileage": "233 000 км",
+    "price": {
+      "byn": "13 671 р.",
+      "usd": "4 780 $ *"
+    }
+  },
+  {
+    "name": "Mercedes-Benz C-Класс I (W202) Рестайлинг",
+    "photo_thumb": "https://yams.kufar.by/api/v1/kufar-ads/images/97/9732014447.jpg?rule=list_thumbs_2x",
+    "link": "https://auto.kufar.by/vi/154096289",
+    "location": "Минская, Жодино",
+    "posted_timestamp": "",
+    "scrape_date": "",
+    "production_year": "1994",
+    "short_info": "Механика, 2.0 л, дизель, седан1994, 222 000 км, механика, 2.0 л, дизель, седан",
+    "mileage": "222 000 км",
+    "price": {
+      "byn": "5 720 р.",
+      "usd": "2 000 $ *"
+    }
+  },
+  {
+    "name": "Mazda 3 I (BK) Рестайлинг",
+    "photo_thumb": "https://yams.kufar.by/api/v1/kufar-ads/images/71/7139182085.jpg?rule=list_thumbs_2x",
+    "link": "https://auto.kufar.by/vi/151425089",
+    "location": "Брест",
+    "posted_timestamp": "",
+    "scrape_date": "",
+    "production_year": "2008",
+    "short_info": "Автомат, 2.0 л, бензин, седан2008, 225 500 км, автомат, 2.0 л, бензин, седан",
+    "mileage": "225 500 км",
+    "price": {
+      "byn": "12 727 р.",
+      "usd": "4 450 $ *"
+    }
+  },
+  {
+    "name": "Opel Astra F",
+    "photo_thumb": "https://yams.kufar.by/api/v1/kufar-ads/images/97/9725979244.jpg?rule=list_thumbs_2x",
+    "link": "https://auto.kufar.by/vi/154096204",
+    "location": "Могилев",
+    "posted_timestamp": "",
+    "scrape_date": "",
+    "production_year": "1997",
+    "short_info": "Механика, 1.8 л, бензин, универсал1997, 250 000 км, механика, 1.8 л, бензин, универсал",
+    "mileage": "250 000 км",
+    "price": {
+      "byn": "2 431 р.",
+      "usd": "850 $ *"
+    }
+  },
+  {
+    "name": "Skoda Octavia I (A4) Рестайлинг",
+    "photo_thumb": "https://yams.kufar.by/api/v1/kufar-ads/images/97/9723253969.jpg?rule=list_thumbs_2x",
+    "link": "https://auto.kufar.by/vi/154096077",
+    "location": "Витебская, Полоцк",
+    "posted_timestamp": "",
+    "scrape_date": "",
+    "production_year": "2001",
+    "short_info": "Механика, 1.9 л, дизель, универсал2001, 300 000 км, механика, 1.9 л, дизель, универсал",
+    "mileage": "300 000 км",
+    "price": {
+      "byn": "12 298 р.",
+      "usd": "4 300 $ *"
+    }
+  },
+  {
+    "name": "LADA (ВАЗ)  ",
+    "photo_thumb": "https://yams.kufar.by/api/v1/kufar-ads/images/37/3734641670.jpg?rule=list_thumbs_2x",
+    "link": "https://auto.kufar.by/vi/140615862",
+    "location": "Брест",
+    "posted_timestamp": "",
+    "scrape_date": "",
+    "production_year": "1991",
+    "short_info": "Механика, 1.3 л, бензин, хэтчбек1991, 150 000 км, механика, 1.3 л, бензин, хэтчбек",
+    "mileage": "150 000 км",
+    "price": {
+      "byn": "1 287 р.",
+      "usd": "450 $ *"
+    }
+  },
+  {
+    "name": "BMW M3 III (E46)",
+    "photo_thumb": "https://yams.kufar.by/api/v1/kufar-ads/images/97/9701751819.jpg?rule=list_thumbs_2x",
+    "link": "https://auto.kufar.by/vi/154095727",
+    "location": "Гомельская, Жлобин",
+    "posted_timestamp": "",
+    "scrape_date": "",
+    "production_year": "2000",
+    "short_info": "Автомат, 4.0 л, бензин, седан2000, 12 000 км, автомат, 4.0 л, бензин, седан",
+    "mileage": "12 000 км",
+    "price": {
+      "byn": "1 716 р.",
+      "usd": "600 $ *"
+    }
+  },
+  {
+    "name": "Hyundai Solaris I Рестайлинг",
+    "photo_thumb": "https://yams.kufar.by/api/v1/kufar-ads/images/32/3266743486.jpg?rule=list_thumbs_2x",
+    "link": "https://auto.kufar.by/vi/147833843",
+    "location": "Минск, Советский",
+    "posted_timestamp": "",
+    "scrape_date": "",
+    "production_year": "2015",
+    "short_info": "Автомат, 1.6 л, бензин, седан2015, 123 000 км, автомат, 1.6 л, бензин, седан",
+    "mileage": "123 000 км",
+    "price": {
+      "byn": "26 312 р.",
+      "usd": "9 200 $ *"
+    }
+  },
+  {
+    "name": "Audi 100 III (C3)",
+    "photo_thumb": "https://yams.kufar.by/api/v1/kufar-ads/images/97/9709222358.jpg?rule=list_thumbs_2x",
+    "link": "https://auto.kufar.by/vi/154095311",
+    "location": "Могилевская, Другие города",
+    "posted_timestamp": "",
+    "scrape_date": "",
+    "production_year": "1988",
+    "short_info": "Механика, 1.8 л, бензин, седан1988, 555 555 км, механика, 1.8 л, бензин, седан",
+    "mileage": "555 555 км",
+    "price": {
+      "byn": "1 287 р.",
+      "usd": "450 $ *"
+    }
+  },
+  {
+    "name": "Mitsubishi Space Runner ",
+    "photo_thumb": "https://yams.kufar.by/api/v1/kufar-ads/images/50/5043140330.jpg?rule=list_thumbs_2x",
+    "link": "https://auto.kufar.by/vi/149331582",
+    "location": "Могилев",
+    "posted_timestamp": "",
+    "scrape_date": "",
+    "production_year": "1991",
+    "short_info": "Механика, 1.8 л, бензин, минивэн1991, 1 км, механика, 1.8 л, бензин, минивэн",
+    "mileage": "1 км",
+    "price": {
+      "byn": "3 000 р.",
+      "usd": "1 049 $ *"
+    }
+  },
+  {
+    "name": "Mercedes-Benz  ",
+    "photo_thumb": "https://yams.kufar.by/api/v1/kufar-ads/images/93/9312181478.jpg?rule=list_thumbs_2x",
+    "link": "https://auto.kufar.by/vi/152808379",
+    "location": "Гродненская, Лида",
+    "posted_timestamp": "",
+    "scrape_date": "",
+    "production_year": "2007",
+    "short_info": "Автомат, 2.2 л, дизель, седан2007, 395 000 км, автомат, 2.2 л, дизель, седан",
+    "mileage": "395 000 км",
+    "price": {
+      "byn": "30 030 р.",
+      "usd": "10 500 $ *"
+    }
+  },
+  {
+    "name": "Renault Scenic I",
+    "photo_thumb": "https://yams.kufar.by/api/v1/kufar-ads/images/95/9500049838.jpg?rule=list_thumbs_2x",
+    "link": "https://auto.kufar.by/vi/153925757",
+    "location": "Гродненская, Ошмяны",
+    "posted_timestamp": "",
+    "scrape_date": "",
+    "production_year": "1999",
+    "short_info": "Механика, 2.0 л, бензин, минивэн1999, 349 000 км, механика, 2.0 л, бензин, минивэн",
+    "mileage": "349 000 км",
+    "price": {
+      "byn": "7 665 р.",
+      "usd": "2 680 $ *"
+    }
+  },
+  {
+    "name": "Citroen Xsara Picasso Xsara Picasso",
+    "photo_thumb": "https://yams.kufar.by/api/v1/kufar-ads/images/97/9720887528.jpg?rule=list_thumbs_2x",
+    "link": "https://auto.kufar.by/vi/154095031",
+    "location": "Гродненская, Сморгонь",
+    "posted_timestamp": "",
+    "scrape_date": "",
+    "production_year": "2001",
+    "short_info": "Механика, 2.0 л, дизель, минивэн2001, 300 000 км, механика, 2.0 л, дизель, минивэн",
+    "mileage": "300 000 км",
+    "price": {
+      "byn": "5 148 р.",
+      "usd": "1 800 $ *"
+    }
+  },
+  {
+    "name": "Mitsubishi Pajero Sport ",
+    "photo_thumb": "https://yams.kufar.by/api/v1/kufar-ads/images/97/9723393175.jpg?rule=list_thumbs_2x",
+    "link": "https://auto.kufar.by/vi/154094886",
+    "location": "Брестская, Пружаны",
+    "posted_timestamp": "",
+    "scrape_date": "",
+    "production_year": "2003",
+    "short_info": "Механика, 2.5 л, дизель, внедорожник2003, 420 000 км, механика, 2.5 л, дизель, внедорожник",
+    "mileage": "420 000 км",
+    "price": {
+      "byn": "20 878 р.",
+      "usd": "7 300 $ *"
+    }
+  },
+  {
+    "name": "Toyota Carina E Carina E",
+    "photo_thumb": "https://yams.kufar.by/api/v1/kufar-ads/images/97/9765396246.jpg?rule=list_thumbs_2x",
+    "link": "https://auto.kufar.by/vi/154094841",
+    "location": "Могилевская, Костюковичи",
+    "posted_timestamp": "",
+    "scrape_date": "",
+    "production_year": "1997",
+    "short_info": "Механика, 1.8 л, бензин, универсал1997, 335 000 км, механика, 1.8 л, бензин, универсал",
+    "mileage": "335 000 км",
+    "price": {
+      "byn": "3 575 р.",
+      "usd": "1 250 $ *"
+    }
+  },
+  {
+    "name": "Mazda  ",
+    "photo_thumb": "https://yams.kufar.by/api/v1/kufar-ads/images/97/9797360240.jpg?rule=list_thumbs_2x",
+    "link": "https://auto.kufar.by/vi/154094686",
+    "location": "Гродненская, Лида",
+    "posted_timestamp": "",
+    "scrape_date": "",
+    "production_year": "1996",
+    "short_info": "Механика, 1.6 л, бензин, хэтчбек1996, 456 800 км, механика, 1.6 л, бензин, хэтчбек",
+    "mileage": "456 800 км",
+    "price": {
+      "byn": "2 231 р.",
+      "usd": "780 $ *"
+    }
+  },
+  {
+    "name": "Ford Fiesta ",
+    "photo_thumb": "https://yams.kufar.by/api/v1/kufar-ads/images/62/6216236680.jpg?rule=list_thumbs_2x",
+    "link": "https://auto.kufar.by/vi/150406315",
+    "location": "Минск, Заводской",
+    "posted_timestamp": "",
+    "scrape_date": "",
+    "production_year": "2004",
+    "short_info": "Механика, 1.3 л, бензин, хэтчбек2004, 320 000 км, механика, 1.3 л, бензин, хэтчбек",
+    "mileage": "320 000 км",
+    "price": {
+      "byn": "9 438 р.",
+      "usd": "3 300 $ *"
+    }
+  },
+  {
+    "name": "Peugeot 307 I",
+    "photo_thumb": "https://yams.kufar.by/api/v1/kufar-ads/images/76/7672454413.jpg?rule=list_thumbs_2x",
+    "link": "https://auto.kufar.by/vi/151921863",
+    "location": "Минская, Минский район",
+    "posted_timestamp": "",
+    "scrape_date": "",
+    "production_year": "2001",
+    "short_info": "Механика, 2.0 л, бензин, хэтчбек2001, 400 000 км, механика, 2.0 л, бензин, хэтчбек",
+    "mileage": "400 000 км",
+    "price": {
+      "byn": "12 012 р.",
+      "usd": "4 200 $ *"
+    }
+  },
+  {
+    "name": "Volkswagen Passat B3",
+    "photo_thumb": "https://yams.kufar.by/api/v1/kufar-ads/images/95/9547353955.jpg?rule=list_thumbs_2x",
+    "link": "https://auto.kufar.by/vi/153922975",
+    "location": "Могилев",
+    "posted_timestamp": "",
+    "scrape_date": "",
+    "production_year": "1989",
+    "short_info": "Механика, 1.8 л, бензин, универсал1989, 441 000 км, механика, 1.8 л, бензин, универсал",
+    "mileage": "441 000 км",
+    "price": {
+      "byn": "2 717 р.",
+      "usd": "950 $ *"
+    }
+  },
+  {
+    "name": "Renault Megane I Рестайлинг",
+    "photo_thumb": "https://yams.kufar.by/api/v1/kufar-ads/images/97/9747979434.jpg?rule=list_thumbs_2x",
+    "link": "https://auto.kufar.by/vi/154094399",
+    "location": "Витебск",
+    "posted_timestamp": "",
+    "scrape_date": "",
+    "production_year": "2000",
+    "short_info": "Механика, 1.6 л, бензин, хэтчбек2000, 164 000 км, механика, 1.6 л, бензин, хэтчбек",
+    "mileage": "164 000 км",
+    "price": {
+      "byn": "Договорная",
+      "usd": ""
+    }
+  },
+  {
+    "name": "Kia Sorento II",
+    "photo_thumb": "https://yams.kufar.by/api/v1/kufar-ads/images/79/7931074310.jpg?rule=list_thumbs_2x",
+    "link": "https://auto.kufar.by/vi/152287075",
+    "location": "Брестская, Барановичи",
+    "posted_timestamp": "",
+    "scrape_date": "",
+    "production_year": "2009",
+    "short_info": "Механика, 2.2 л, дизель, внедорожник2009, 255 000 км, механика, 2.2 л, дизель, внедорожник",
+    "mileage": "255 000 км",
+    "price": {
+      "byn": "42 900 р.",
+      "usd": "15 000 $ *"
+    }
+  },
+  {
+    "name": "Форд транзит 2.5 дизель 9мест",
+    "photo_thumb": "https://yams.kufar.by/api/v1/kufar-ads/images/97/9744462260.jpg?rule=list_thumbs_2x",
+    "link": "https://auto.kufar.by/vi/154090650",
+    "location": "Минск, Ленинский",
+    "posted_timestamp": "",
+    "scrape_date": "",
+    "production_year": "1996",
+    "short_info": "Механика, 2.5 л, дизель, микроавтобус1996, 420 000 км, механика, 2.5 л, дизель, микроавтобус",
+    "mileage": "420 000 км",
+    "price": {
+      "byn": "10 296 р.",
+      "usd": "3 600 $ *"
+    }
+  },
+  {
+    "name": "Rover 45 ",
+    "photo_thumb": "https://yams.kufar.by/api/v1/kufar-ads/images/97/9736580294.jpg?rule=list_thumbs_2x",
+    "link": "https://auto.kufar.by/vi/154094204",
+    "location": "Минск, Заводской",
+    "posted_timestamp": "",
+    "scrape_date": "",
+    "production_year": "2002",
+    "short_info": "Механика, 2.0 л, дизель, хэтчбек2002, 312 000 км, механика, 2.0 л, дизель, хэтчбек",
+    "mileage": "312 000 км",
+    "price": {
+      "byn": "8 437 р.",
+      "usd": "2 950 $ *"
+    }
+  },
+  {
+    "name": "Volkswagen Golf V",
+    "photo_thumb": "https://yams.kufar.by/api/v1/kufar-ads/images/97/9735671869.jpg?rule=list_thumbs_2x",
+    "link": "https://auto.kufar.by/vi/154094180",
+    "location": "Гродно",
+    "posted_timestamp": "",
+    "scrape_date": "",
+    "production_year": "2005",
+    "short_info": "Автомат, 1.9 л, дизель, хэтчбек2005, 400 км, автомат, 1.9 л, дизель, хэтчбек",
+    "mileage": "400 км",
+    "price": {
+      "byn": "13 299 р.",
+      "usd": "4 650 $ *"
+    }
+  },
+  {
+    "name": "BMW 3 Серии ",
+    "photo_thumb": "https://yams.kufar.by/api/v1/kufar-ads/images/97/9772224390.jpg?rule=list_thumbs_2x",
+    "link": "https://auto.kufar.by/vi/154094093",
+    "location": "Гомельская, Жлобин",
+    "posted_timestamp": "",
+    "scrape_date": "",
+    "production_year": "1990",
+    "short_info": "Механика, 4.0 л, бензин, универсал1990, 11 000 км, механика, 4.0 л, бензин, универсал",
+    "mileage": "11 000 км",
+    "price": {
+      "byn": "1 287 р.",
+      "usd": "450 $ *"
+    }
+  },
+  {
+    "name": "ГАЗ 3110 «волга» 3110 «волга»",
+    "photo_thumb": "https://yams.kufar.by/api/v1/kufar-ads/images/97/9723845855.jpg?rule=list_thumbs_2x",
+    "link": "https://auto.kufar.by/vi/154090754",
+    "location": "Могилевская, Кричев",
+    "posted_timestamp": "",
+    "scrape_date": "",
+    "production_year": "1998",
+    "short_info": "Механика, 2.4 л, бензин, седан1998, 100 км, механика, 2.4 л, бензин, седан",
+    "mileage": "100 км",
+    "price": {
+      "byn": "1 430 р.",
+      "usd": "500 $ *"
+    }
+  },
+  {
+    "name": "Honda Civic VII",
+    "photo_thumb": "https://yams.kufar.by/api/v1/kufar-ads/images/97/9794606094.jpg?rule=list_thumbs_2x",
+    "link": "https://auto.kufar.by/vi/154094047",
+    "location": "Брест",
+    "posted_timestamp": "",
+    "scrape_date": "",
+    "production_year": "2003",
+    "short_info": "Механика, 1.4 л, бензин, хэтчбек2003, 309 000 км, механика, 1.4 л, бензин, хэтчбек",
+    "mileage": "309 000 км",
+    "price": {
+      "byn": "9 581 р.",
+      "usd": "3 350 $ *"
+    }
+  },
+  {
+    "name": "Volkswagen Passat B4",
+    "photo_thumb": "https://yams.kufar.by/api/v1/kufar-ads/images/75/7590133453.jpg?rule=list_thumbs_2x",
+    "link": "https://auto.kufar.by/vi/151785104",
+    "location": "Витебская, Орша",
+    "posted_timestamp": "",
+    "scrape_date": "",
+    "production_year": "1996",
+    "short_info": "Механика, 1.9 л, дизель, универсал1996, 530 000 км, механика, 1.9 л, дизель, универсал",
+    "mileage": "530 000 км",
+    "price": {
+      "byn": "4 576 р.",
+      "usd": "1 600 $ *"
+    }
+  },
+  {
+    "name": "Mercedes-Benz S-Класс V (W221)",
+    "photo_thumb": "https://yams.kufar.by/api/v1/kufar-ads/images/94/9496548355.jpg?rule=list_thumbs_2x",
+    "link": "https://auto.kufar.by/vi/153828450",
+    "location": "Гродно",
+    "posted_timestamp": "",
+    "scrape_date": "",
+    "production_year": "2006",
+    "short_info": "Автомат, >4 л, бензин, седан2006, 122 568 км, автомат, >4 л, бензин, седан",
+    "mileage": "122 568 км",
+    "price": {
+      "byn": "35 175 р.",
+      "usd": "12 299 $ *"
+    }
+  },
+  {
+    "name": "BMW 5 Серии IV (E39)",
+    "photo_thumb": "https://yams.kufar.by/api/v1/kufar-ads/images/97/9794143116.jpg?rule=list_thumbs_2x",
+    "link": "https://auto.kufar.by/vi/154093894",
+    "location": "Гомель",
+    "posted_timestamp": "",
+    "scrape_date": "",
+    "production_year": "1997",
+    "short_info": "Механика, 2.0 л, бензин, седан1997, 388 291 км, механика, 2.0 л, бензин, седан",
+    "mileage": "388 291 км",
+    "price": {
+      "byn": "7 150 р.",
+      "usd": "2 500 $ *"
+    }
+  }
+]
