@@ -1,6 +1,6 @@
-const parseByHour = require("./parseByHour");
-const parseByDay = require("./parseByDay");
-const parseByMonth = require("./parseByMonth");
+const parseByHour = require("./parse-by-hour");
+const parseByDay = require("./parse-by-day");
+const parseByMonth = require("./parse-by-month");
 
 const parseDate = (date) => {
   const isHoursAgo =
@@ -9,8 +9,6 @@ const parseDate = (date) => {
     date.includes("час назад");
   const isDaysAgo =
     date.includes("дней") || date.includes("дня") || date.includes("вчера");
-
-  console.log(date);
 
   if (isHoursAgo) {
     return parseByHour(date);
