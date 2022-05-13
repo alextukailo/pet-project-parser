@@ -27,7 +27,7 @@
     "express": "^4.17.3",
     "express-handlebars": "^6.0.3",
     "javascript-time-ago": "^2.3.13",
-    "mongoose": "^6.2.9",
+    "mongoose": "^6.3.2",
     "pretty": "^2.0.0",
     "sugar": "^2.0.6"
   },
