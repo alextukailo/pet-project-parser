@@ -29,7 +29,9 @@
     "javascript-time-ago": "^2.3.13",
     "mongoose": "^6.3.2",
     "pretty": "^2.0.0",
-    "sugar": "^2.0.6"
+    "sugar": "^2.0.6",
+    "winston": "^3.7.2",
+    "winston-mongodb": "^5.0.7"
   },
   "devDependencies": {
     "nodemon": "^2.0.15"

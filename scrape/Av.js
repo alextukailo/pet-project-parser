@@ -2,6 +2,7 @@ const cheerio = require("cheerio");
 
 const { getScrapedData } = require("../lib/cheerio");
 const constants = require("../lib/constants");
+const logger = require("../lib/logger");
 const service = require("../lib/services");
 const sendDataToDB = require("../lib/services/av-cars/send");
 
@@ -16,7 +17,7 @@ const scrapeAv = async () => {
     await sendDataToDB(cars);
     writeFile(cars, "carsAv");
   } catch (err) {
-    console.log(constants.SERVER_STATUS.ERROR, err);
+    logger.error(err)
   }
 };
 

@@ -1,7 +1,8 @@
 const cheerio = require("cheerio");
 
-const { getScrapedData, getHTML } = require("../lib/cheerio");
+const { getScrapedData } = require("../lib/cheerio");
 const constants = require("../lib/constants");
+const logger = require("../lib/logger");
 const service = require("../lib/services");
 
 const writeFile = require("../utils");
@@ -16,8 +17,7 @@ const scrapeKufar = async () => {
 
     writeFile(cars, "carsKufar");
   } catch (err) {
-    console.log(err)
-    throw new Error(constants.SERVER_STATUS.ERROR, err);
+    logger.error(err)
   }
 };
 
